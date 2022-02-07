@@ -34,6 +34,9 @@ body {
     color: #4b5d68;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
+/* TODO: последние два свойства можно переписать в одну строку
+    background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%) no-repeat;
+*/
     background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
     background-repeat: no-repeat;
 }
@@ -65,6 +68,7 @@ body {
     align-items: center;
 }
 .header__logo {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 15px 0px 0px;
 }
 .header__links {
@@ -118,6 +122,7 @@ body {
     flex-direction: column;
     max-width: 1248px;
     height: 550px;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 113px 0px;
 }
 .data-security__title {
@@ -125,11 +130,13 @@ body {
     font-size: 80px;
     line-height: 110%;
     color: #212353;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 57px 0px;
     font-weight: bold;
 }
 .data-security__text {
     max-width: 380px;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 55px 0px;
 }
 .data-security__button {
@@ -147,6 +154,7 @@ body {
     position: absolute;
     z-index: -1;
     bottom: -13px;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     right: 0px;
 }
 .data-security__img img {
@@ -167,10 +175,12 @@ body {
         font-size: 45px;
         margin-bottom: 10px;
         text-align: center;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
         margin-top: 0px;
     }
     .data-security__text {
         text-align: center;
+/* TODO: можно заменить в одну строку margin: 0 auto 20px; */
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -188,6 +198,7 @@ body {
 /* --------- // data-info // --------- */
 
 .data-info {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 150px 0px;
     padding: 0px 10px 0px 0px;
     display: flex;
@@ -207,6 +218,7 @@ body {
     font-size: 40px;
     line-height: 130%;
     color: #212353;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 40px 0px;
 }
 .data-info__text {
@@ -253,6 +265,7 @@ body {
 
 .features {
     max-width: 1120px;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 100px 0px;
 }
 .features__text {
@@ -265,6 +278,7 @@ body {
     font-size: 40px;
     line-height: 130%;
     color: #212353;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 50px 0px;
 }
 .features__subtitle {
@@ -280,6 +294,7 @@ body {
     width: 100%;
     height: 358px;
     align-items: center;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 50px 0px;
     background-image: url(img/features/search-bg.png);
     background-repeat: no-repeat;
@@ -298,6 +313,7 @@ body {
 .item-features {
 }
 .features__img {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 30px 0px 0px;
 }
 .features__img img {
@@ -308,6 +324,7 @@ body {
     display: block;
 }
 .item-features__title {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     padding: 25px 0px 0px 0px;
     margin: 0px 0px 30px 0px;
     font-size: 24px;
@@ -318,6 +335,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 20px 0px;
     height: 160px;
 }
@@ -394,6 +412,7 @@ body {
     max-width: 1118px;
     height: 709px;
     position: relative;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 150px 0px;
 }
 .testimonials__title {
@@ -419,6 +438,7 @@ body {
     border: 1px solid #9c69e2;
     border-radius: 20px;
     z-index: 3100;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     padding: 60px 0px 0px 40px;
     margin: 0px 20px 0px 0px;
     display: flex;
@@ -427,6 +447,7 @@ body {
     max-width: 400px;
     overflow: hidden;
     position: relative;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     box-shadow: 0px 20px 0px rgba(106, 58, 173, 0.1);
 }
 .item-testimonials::after {
@@ -434,24 +455,29 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     top: 0px;
     left: 0px;
     background: linear-gradient(270deg, #ffffff 9.75%, rgba(255, 255, 255, 0) 100%);
 }
+/* TODO: по возможности используйте английские слова без опечаток activ -> active */
 .item-testimonials.item-testimonials_activ::after {
     display: none;
 }
 
 .item-testimonials_activ {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     box-shadow: 0px 20px 0px rgba(106, 58, 173, 0.3);
     max-width: 645px;
     padding: 60px 70px 0px 70px;
 }
 
 .item-testimonials__photo {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 30px 0px 0px;
 }
 .item-testimonials__user {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     padding: 20px 0px 0px 0px;
 }
 .item-testimonials__name {
@@ -464,12 +490,14 @@ body {
     line-height: 160%;
     color: #9c69e2;
     letter-spacing: 0.01em;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 20px 0px;
 }
 .item-testimonials__text {
     width: 385px;
 }
 .testimonials__nav {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: auto 0px 60px 93px;
     display: flex;
     justify-content: space-between;
@@ -499,6 +527,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 82px;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 76px 0px 0px;
 }
 .testimonials__arrow-left {
@@ -553,6 +582,7 @@ body {
     padding: 0 15px;
 }
 .footer__content {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 163px 0px 0px 0px;
     max-width: 1250px;
     width: 100%;
@@ -562,12 +592,15 @@ body {
 .footer__info {
 }
 .footer__logo {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 64px 0px;
 }
+/* TODO: используйте английские слова без опечаток adress -> address */
 .footer__adress {
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 15px 0px;
     color: #212353;
 }
@@ -585,6 +618,7 @@ body {
     line-height: 180%;
 }
 .footer__cop {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 36px 0px 0px 0px;
     font-weight: normal;
     font-size: 12px;
@@ -598,14 +632,17 @@ body {
     line-height: 180%;
     letter-spacing: 0.01em;
     color: #212353;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 0px 60px 0px;
 }
 .footer__social {
     display: flex;
     flex-direction: column;
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 166px 0px 0px;
 }
 .footer__social-text {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 10px 0px 30px 0px;
     color: #212353;
     font-weight: 700;
@@ -617,12 +654,15 @@ body {
 }
 
 .footer__social-link {
+/* TODO: нет необходимости указывать единицы измерения нулевым значениям, 0px -> 0 */
     margin: 0px 14px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 50px;
+/* TODO: избегайте использования дробных пикселей. Пиксель как точка, дробное значение будет по-разному обработано
+     в разных браузерах, вертска может "поехать" */
     height: 49.08px;
     border-radius: 50%;
     background-color: #212353;
